@@ -1,0 +1,140 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8e9dd;
+    width: 144rem;
+    padding-bottom: 18.2rem;
+}
+
+.main .balance {
+    width: 54rem;
+    height: 12.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ec755d;
+    border-radius: 2rem;
+    margin-top: 18.2rem;
+}
+
+.main .balance .my-balance {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 2.7rem;
+    margin-left: 3.2rem;
+}
+
+.main .balance .my-balance .paragrath-balance {
+    font-size: 1.8rem;
+    height: 2.3rem;
+    color: #fff;
+}
+
+.main .balance .my-balance .money-balance {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.main .balance .logo-balance {
+    height: 4.8rem;
+    margin-top: 4rem;
+    margin-right: 4rem;
+}
+
+.main .container-graphics {
+    width: 54rem;
+    height: 51.1rem;
+    background-color: #fffbf6;
+    margin-top: 2.4rem;
+    border-radius: 2rem;
+}
+
+.main .container-graphics .title-graphics {
+    margin-top: 3.2rem;
+    margin-left: 4rem;
+    font-size: 3.2rem;
+}
+
+.main .container-graphics .box-graphics {
+    margin-left: 4rem;
+    display: flex;
+    align-items: end;
+    column-gap: 1.8rem;
+    height: 24.4rem;
+}
+
+.main .container-graphics .box-graphics .box-days {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    width: 5rem;
+    text-align: center;
+}
+
+.main .container-graphics .box-graphics .box-days .box-dado {
+    width: 7.5rem;
+    height: 4rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    background-color: #382314;
+    color: #fffbf6;
+}
+
+.main .container-graphics .box-graphics .box-days .graphics {
+    width: 5rem;
+    background-color: #ec755d;
+    border-radius: 0.7em;
+}
+
+.main .container-graphics .box-graphics .box-days .days {
+    color: #92857a;
+    font-size: 1.5rem;
+}
+
+.main .container-graphics .line {
+    margin-top: 3.2rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+.main .container-graphics .month {
+    margin-top: 3.2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .container-graphics .month .total-month .paragrath-total-month {
+    font-size: 1.8rem;
+    color: #92857a;
+}
+
+.main .container-graphics .month .total-month .money-total-month {
+    font-size: 4.8rem;
+    font-weight: 900;
+}
+
+.main .container-graphics .month .last-month .percentagem-last-month {
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: end;
+    margin-top: 3rem;
+}
+
+.main .container-graphics .month .last-month .paragrath-last-month {
+    font-size: 1.8rem;
+    color: #92857a;
+}
