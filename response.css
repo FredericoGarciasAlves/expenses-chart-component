@@ -1,0 +1,127 @@
+@media(max-width: 375px){
+
+    
+    .main {
+        width: 37.5rem;
+        padding-bottom: 6.6rem;
+    }
+    
+    .main .balance {
+        width: 34.3rem;
+        height: 9.7rem;
+        border-radius: 1rem;
+        margin-top: 6.7rem;
+    }
+    
+    .main .balance .my-balance {
+        row-gap: 0.4rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    
+    /* verificar*/
+    .main .balance .my-balance .paragrath-balance {
+        font-size: 1.7rem;
+        height: 2.3rem;
+        
+    }
+    
+    .main .balance .my-balance .money-balance {
+        font-size: 2.8rem;
+    }
+    
+    .main .balance .logo-balance {
+        height: 4rem;
+        margin-top: 6rem;
+        margin-right: 2.4rem;
+    }
+    
+    .main .container-graphics {
+        width: 34.3rem;
+        height: 42.1rem;
+        
+        margin-top: 1.6rem;
+        border-radius: 1rem;
+    }
+    
+    .main .container-graphics .title-graphics {
+        margin-top: 2.8rem;
+        margin-left: 2rem;
+        font-size: 1.8rem;
+    }
+    
+    .main .container-graphics .box-graphics {
+        margin-left: 2rem;
+        column-gap: 1.2rem;
+        height: 22.9rem;
+    }
+    
+    .main .container-graphics .box-graphics .box-days {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+        width: 5rem;
+        text-align: center;
+    }
+    
+    .main .container-graphics .box-graphics .box-days .box-dado {
+        width: 7.5rem;
+        height: 4rem;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8rem;
+        background-color: #382314;
+        color: #fffbf6;
+    }
+    
+    .main .container-graphics .box-graphics .box-days .graphics {
+        width: 5rem;
+        background-color: #ec755d;
+        border-radius: 0.7em;
+    }
+    
+    .main .container-graphics .box-graphics .box-days .days {
+        color: #92857a;
+        font-size: 1.5rem;
+    }
+    
+    .main .container-graphics .line {
+        margin-top: 3.2rem;
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
+    
+    .main .container-graphics .month {
+        margin-top: 3.2rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .main .container-graphics .month .total-month .paragrath-total-month {
+        font-size: 1.8rem;
+        color: #92857a;
+    }
+    
+    .main .container-graphics .month .total-month .money-total-month {
+        font-size: 4.8rem;
+        font-weight: 900;
+    }
+    
+    .main .container-graphics .month .last-month .percentagem-last-month {
+        font-size: 1.7rem;
+        font-weight: 600;
+        text-align: end;
+        margin-top: 3rem;
+    }
+    
+    .main .container-graphics .month .last-month .paragrath-last-month {
+        font-size: 1.8rem;
+        color: #92857a;
+    }
+    
+}
